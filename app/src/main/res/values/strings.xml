@@ -3,4 +3,11 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="forgot_password">Forget Password</string>
+    <string name="track_title">TrackMe</string>
+    <string name="hint_username">Username / Email Address</string>
+    <string name="subtitle">The Power To Track Your Footsteps Daily</string>
+    <string name="register_account">Register Account</string>
+    <string name="connect">CONNECT</string>
+    <string name="hint_password">Password</string>
 </resources>
