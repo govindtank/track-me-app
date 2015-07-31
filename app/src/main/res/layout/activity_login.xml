@@ -18,14 +18,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="TrackMe"
+            android:text="@string/track_title"
             android:textSize="55sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="The Power To Track Your Footsteps Daily"
+            android:text="@string/subtitle"
             android:textSize="13sp" />
 
     </LinearLayout>
@@ -40,29 +40,35 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/etUsername"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_action_person"
             android:drawableLeft="@drawable/ic_action_person"
             android:drawablePadding="13dp"
-            android:hint="Username / Email Address"
+            android:hint="@string/hint_username"
             android:padding="10dp"
             android:theme="@style/EditTextTheme" />
 
         <EditText
+            android:id="@+id/etPassword"
+            android:inputType="textPassword"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_action_secure"
             android:drawableLeft="@drawable/ic_action_secure"
             android:drawablePadding="13dp"
-            android:hint="Password"
+            android:hint="@string/hint_password"
             android:padding="10dp"
             android:theme="@style/EditTextTheme" />
 
         <Button
+            android:id="@+id/bConnect"
             android:layout_width="fill_parent"
             android:layout_height="36dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/button"
-            android:text="CONNECT" />
+            android:text="@string/connect" />
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -74,14 +80,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Register Account" />
+                android:text="@string/register_account" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="end"
-                android:text="Forget Password" />
+                android:text="@string/forgot_password" />
         </LinearLayout>
 
     </LinearLayout>
